@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+server:
+     port: 8001
+     application:
+       name: microservicecloud-config-atguigu-dev
+spring:
+  profiles: dev
+
+eureka:
+  client: 
+    service-url: 
+      defaultZone: http://eureka7001.com:7001/eureka
+      
+---
+server:
+     port: 8002
+     application:
+       name: microservicecloud-config-atguigu-dev
+spring:
+  profiles: test
+
+eureka:
+  client: 
+    service-url: 
+      defaultZone: http://eureka7001.com:7001/eureka
+      
