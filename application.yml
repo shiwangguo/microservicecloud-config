@@ -16,5 +16,5 @@ spring:
 spring:
   profiles: sit
   application:
-    name: microservicecloud-config-atguigu-test
+    name: microservicecloud-config-atguigu-sit
 
