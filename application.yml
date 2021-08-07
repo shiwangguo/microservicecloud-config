@@ -12,3 +12,9 @@ spring:
   profiles: test
   application:
     name: microservicecloud-config-atguigu-test
+---
+spring:
+  profiles: sit
+  application:
+    name: microservicecloud-config-atguigu-test
+
